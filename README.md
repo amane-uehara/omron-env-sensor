@@ -14,6 +14,9 @@ Raspberry Piに以下のソフトをインストールする。
 $ sudo apt install python3-dev
 $ sudo apt install python3-pip
 $ sudo apt install libglib2.0-dev
+$ sudo apt install libboost-python-dev
+$ sudo apt install libboost-thread-dev
+$ sudo apt install libbluetooth3-dev
 $ sudo su root
 # pip3 install pybluez
 # pip3 install gattlib
