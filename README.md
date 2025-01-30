@@ -40,24 +40,24 @@ BA:32:39:A8:5E:8D Rbt
 
 本リポジトリに含まれる
 
-<https://raw.githubusercontent.com/amane-uehara/omron-env-sensor/master/fetch-omron-sensor.py>
+<https://raw.githubusercontent.com/amane-uehara/omron-env-sensor/master/fetch-by-raspi3-raspi4.py>
 
 をダウンロードし、
-[MACアドレスの設定部分](https://github.com/amane-uehara/omron-env-sensor/blob/master/fetch-omron-sensor.py#L5)
+[MACアドレスの設定部分](https://github.com/amane-uehara/omron-env-sensor/blob/master/fetch-by-raspi3-raspi4.py#L5)
 を先ほど調べた値に書き換える。
 
 ### スクリプトの実行
 
-rootでログインして `fetch-omron-sensor.py` を実行すれば環境センサーからの値を取得できる。
+rootでログインして `fetch-by-raspi3-raspi4.py` を実行すれば環境センサーからの値を取得できる。
 
 ```
 # sudo su root
-# python3 fetch-omron-sensor.py
+# python3 fetch-by-raspi3-raspi4.py
 2765,6909,78,1007316,5319,29,594
 
 
 ～～蛇足～～
-$ sudo python3 fetch-omron-sensor.py
+$ sudo python3 fetch-by-raspi3-raspi4.py
 のように一般ユーザーで動かすのは難しい。
 ```
 
